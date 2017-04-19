@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A full-stack application using Node, Express, Bootstrap and HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcodarko/FriendFinder.git"
+  },
+  "author": "marcodarko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcodarko/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/marcodarko/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
