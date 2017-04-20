@@ -3,11 +3,21 @@
 
 var friendsArray = [
   {
-    customerName: "Ahmed",
-    customerEmail: "ahmed@example.com",
-    customerID: "afhaque89",
-    phoneNumber: "000-000-0000"
-  }
+  "name":"Tom",
+  "photo":"https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg",
+  "scores":[
+      5,
+      1,
+      4,
+      4,
+      5,
+      1,
+      2,
+      5,
+      4,
+      1
+    ]
+}
 ];
 
 
