@@ -50,6 +50,8 @@ module.exports = function(app) {
    		// closesMatch to keep track of it
    		if(thisTotal < lowestTotalSoFar){
 
+   			// if total for the current loop is lower than previous, save the index of the 
+   			// closest match
    			closestMatch = index;
    		};
    	};

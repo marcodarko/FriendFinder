@@ -2,7 +2,7 @@
       event.preventDefault();
 
     var nameInput= $("#nameInput").val().trim();
-    var imageInput= $("#nameInput").val().trim();
+    var imageInput= $("#imageInput").val().trim();
     var answersArray= [
       $("#q1").val(),
       $("#q2").val(),
@@ -42,6 +42,9 @@
           $("#resultsModal").modal('toggle');
 
           // resets the values back to nothing
+
+               $("#nameInput").val("");
+              $("#imageInput").val("");
 
                 $("#q1").val("");
                 $("#q2").val("");
