@@ -13,7 +13,7 @@ module.exports = function(app) {
     res.json(friendsData);
   });
 
-  app.post("/api/tables", function(req, res) {
+  app.post("/api/friends", function(req, res) {
     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
     // It will do this by sending out the value "true" have a table
 
@@ -56,6 +56,8 @@ module.exports = function(app) {
 
    	// pushed new data to our data array
       friendsData.push(req.body);
+
+      console.log("Best Match is: "+ friendsData[closestMatch]);
 
       // we respond with the index of the closest match
       res.send(friendsData[closestMatch]);

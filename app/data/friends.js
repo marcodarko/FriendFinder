@@ -5,7 +5,7 @@ var friendsArray = [
   {
   "name":"Tom",
   "photo":"https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg",
-  "scores":[
+  "answers":[
       5,
       1,
       4,

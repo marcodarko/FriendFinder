@@ -19,6 +19,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
+// used to serve static files, tells express which directory to use
+// JS is where I stored my logic that is linked to my HTML
+app.use(express.static('JS'));
+
 // ================================================================================
 // ROUTER
 // The below points our server to a series of "route" files.
